@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header {
+	height: 700px;
+	background-color: #abeafa;
+}
+.logo {
+	margin-top: 24px;
+	width: 23%;
+	display: flex;
+	justify-content: center;
+}
+.mini-images {
+	width: 77%;
+}
+li {
+	list-style-type: none;
+}
+.header-mini {
+	display: flex;
+}
+.list-images {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 70px;
+}
+.menu-logo {
+	margin-top: 50px;
+	margin-left: 15px;
+	font-size: 16px;
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+.menu-logo__hyper {
+	color: white;
+}
+.menu-logo__hyper:hover {
+	color: black;
+}
+.welcome {
+	float: left;
+}
+.title {
+	width: 199px;
+	height: 52px;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.title__text {
+	width: 220px;
+	height: 60px;
+	margin-top: 24px;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	line-height: 14px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: justify;
+	font-style: italic;
+}
+.min-help {
+	margin-top: 200px;
+	background-color: #fff51f;
+	width: 270px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.funride__jp {
+	width: 290px;
+	height: 169px;
+}
+.funride {
+	float: right;
+	margin-top: 108px;
+	margin-right: 100px;
+}
+.funride__title {
+	font-family: 'Raleway', sans-serif;
+	color: #fff51f;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.funride__text {
+	margin-top: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: #fff51f;
+	font-size: 18px
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+}
+.buy_now {
+	margin-top: 62px;
+	text-transform: uppercase;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 124px;
+	height: 49px;
+	background-color: #fff51f;
+}
+.buy_now:hover {
+	background-color: black;
+	color: #fff51f;
+}
+.buy_now:active {
+	padding: 1px;
+}
+.black-block {
+	background-color: black;
+	height: 20px;
+	width: 270px;
+	margin-top: 541px;
+}
+.left-menu {
+	width: 270px;
+	height: 475px;
+	background-color: #26d2fc;
+}
+.left-menu__ul {
+	height: 100%;
+	width: 100%;
+}
+.left-menu__hyper {
+	padding-left: 40px;
+	color: black;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 36px;
+	text-align: left;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+.left-menu__hyper:hover {
+	background-color: black;
+	color: white;
+}
+.left-menu__text:first-child {
+	background-color: black;
+}
+.first {
+	color: white;
+	font-weight: 700;
+}
+.left-menu__text {
+	width: 100%;
+	height: 8.333333%;
+}
+.main {
+	background-color: #f8f8f8;
+}
+.new_products {
+	font-family: 'Roboto', sans-serif;
+	color: #707070;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	text-transform: uppercase;
+	margin-left: 25px;
+	margin-top: 11px;
+}
+.main-helper {
+	display: flex;
+}
+.right-menu {
+	width: 870px;
+	background-color: #f8f8f8;
+	margin-left: 30px;
+}
+.right-menu-li {
+	width: 270px;
+	height: 320px;
+	background-color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.right-menu-li-div {
+	width: 250px;
+	height: 235px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eaeaea;
+}
+.right-menu-ul {
+	display: flex;
+}
+.right-menu-ul1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+ .right-menu-li-main {
+ 	margin-top: 31px;
+ }
+ .product-text {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+ }
+ .product-text-1 {
+ 	font-family: 'Roboto', sans-serif;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	line-height: 18.012px;
+	text-align: left;
+ }
+ .product-text-2 {
+ 	font-family: 'Roboto', sans-serif;
+	color:  #333333;
+	font-size: 18px;
+	font-style: italic;
+	text-align: right;
+ }
+ .brand {
+ 	background-color: #f8f8f8;
+ }
+ .brand-inside {
+ 	background-color: #ffffff;
+ 	height: 160px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+.insta {
+	background-color: #f8f8f8
+}
+.instagram {
+	background-color: #eaeaea;
+	height: 350px;
+}
+.insta-text-1 {
+	font-family: 'Roboto', sans-serif;
+	color:  #333333;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+}
+.insta-text-2 {
+	font-family: 'Roboto', sans-serif;
+	color:  #333333;
+	font-size: 18px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	padding-left: 5px;
+}
+.insta-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 105px;
+}
+.image-surf {
+	display: flex;
+	justify-content: space-between;
+}
+.social {
+	background-color: #f8f8f8
+}
+.social-icons {
+	height: 150px;
+	display: flex;
+}
+.soc-icon {
+	width: 33.333333%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.s-icon-1 {
+	background-color: #3b5997;
+}
+.s-icon-2 {
+	background-color: #3fccfd;
+}
+.s-icon-3 {
+	background-color: #cb2027;
+}
+.soc-i {
+	font-size: 52px;
+}
+.footer-1 {
+	background-color:  #373737;
+}
+.footer-li-1, .footer-li-2, .footer-li-3 {
+	width: 15%;
+	height: 100%;
+}
+.footer-li-4, .footer-li-5 {
+	width: 27.5%;
+	height: 100%;
+}
+.footer-ul {
+	display: flex;
+	height: 348px;
+}
+.mini-title {
+	font-family: 'Raleway', sans-serif;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	width: 70%;
+}
+.mini-text-foot {
+	font-family: 'Roboto', sans-serif;
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+}
+.footer-li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.footer-li-ul {
+	width: 50%;
+}
+.footer-2 {
+	background-color: #333333;
+}
+.footer-2-go {
+	height: 47px;
+	display: flex;
+}
+.f125 {
+	font-family: 'Roboto', sans-serif;
+	color:  #dad9d9;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 21.6px;
+}
+.footer-1-1 {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 40px;
+}
+.footer-1-2 {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.list-images-footer {
+	display: flex;
+}
+.menu-logo-footer {
+	margin-right: 50px;
+}
